@@ -1,0 +1,1039 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <title>Villas On Rent</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css?ver=1" >
+   </head>
+   <body >
+      <div class="prehome d-none">
+         <canvas id="prehome--dots" class="d-none"></canvas>
+      </div>
+      <div class="navigation-menu">
+         <div   class="navmenu-overlay"></div>
+         <a class="navmenu-close"> <img src="images/btn_close_popup.png" alt="close"></a>
+         <div class="container">
+            <a class="navbar-brand py-0" href="#">
+            <img src="images/logo.svg" alt="logo">
+            </a>
+         </div>
+         <div class=" container-small mx-auto">
+            <ul class="list-unstyled menulist">
+               <li class="menulist--item">
+                  <a href="#" class="menulist--link">Goa</a>
+               </li>
+               <li class="menulist--item">
+                  <a href="#" class="menulist--link">Bali</a>
+               </li>
+               <li class="menulist--item">
+                  <a href="#" class="menulist--link">Mykonos</a>
+               </li>
+               <li class="menulist--item">
+                  <a href="#" class="menulist--link">Zermatt</a>
+               </li>
+               <li class="menulist--item">
+                  <a href="#" class="menulist--link">Coorg</a>
+               </li>
+            </ul>
+         </div>
+         <div class="nav-item-vertical">
+            <a class="text-uppercase">Featured Destinations</a>
+         </div>
+      </div>
+      <aside class="side-nav">
+         <nav>
+            <div class="d-none">
+               <div class="d-flex profile-xs">
+                  <div class="profile">
+                     <img src="images/user-pic.png" width="48" height="48" alt="userpic">
+                  </div>
+                  <p class="mb-0 align-self-center color-white px-3">
+                     Alex Doe
+                  </p>
+               </div>
+            </div>
+            <ul>
+               <li class="active">
+                  <a href="#">
+                  Home
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="navmenu-trigger">
+                  Explore
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  Favourites
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  Messages
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  My Profile
+                  </a>
+               </li>
+            </ul>
+            <ul>
+               <li>
+                  <a href="#" class="menu-item-active btn-white-black">
+                  I’M A VILLA OWNER
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  List My Villa
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  Claim My Villa
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  Advertise
+                  </a>
+               </li>
+               <li>
+                  <a href="#">
+                  Contact Us
+                  </a>
+               </li>
+            </ul>
+            <ul class="border-bottom-none">
+               <li>
+                  <a href="#" class="menu-item-bold" data-toggle="popupmodal" data-target="#signInModal">
+                  SIGN IN 
+                  </a> 
+               </li>
+               <li>
+                  <a href="#" class="menu-item-bold" data-toggle="popupmodal" data-target="#signUpModal">
+                  SIGN UP
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </aside>
+      <div class="wrapper scroll-reveal">
+         <div class="overlay"></div>
+         <header>
+            <div class="container">
+               <div class="header-inner">
+                  <nav class="navbar navbar-inverse navbar-expand-md py-0 px-0">
+                     <div class="navbar-header mr-auto">
+                        <a class="navbar-brand py-0" href="#">
+                        <img src="images/logo.svg" alt="logo">
+                        </a>
+                     </div>
+                      <span class="px-2 d-md-none btn-search-xs">
+                    <img src="images/search.png" alt="search">
+                </span>
+                     <button class="navbar-toggler" type="button" id="btn-toggle-menu" >
+                     <img src="images/hamberger_menu-black.svg" alt="humbergermenu">
+                     </button>
+                     <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="navbar-nav ml-auto">
+                           <li class="nav-item">
+                              <a class="nav-link btn-menu navmenu-trigger" href="#" >Advertise</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="javascript:void(0)"  data-toggle="popupmodal" data-target="#signInModal">Sign In</a>
+                           </li>
+                           <li class="nav-item active btn-villa">
+                              <a class="nav-link btn-scale-animate" href="#">I’m a villa owner</a>
+                           </li>
+                           <li  class="nav-item d-none">
+                              <div class="profile">
+                                 <img src="images/user-pic.png" width="32" height="32" alt="userpic">
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </header>
+         <div class="page-container" data-page="who-we-are">
+            <section class="page-content">
+               <div class="banner position-relative">
+                  <div class=" mb-0">
+                     <div class="slide">
+                        <div class="cnt">
+                           <figure >
+                              <img src="images/owner-banner.jpg" alt="bannerpic" >
+                           </figure>
+                           <div class="slide-content  text-md-left">
+                              <div class="container banner-header scroll-reveal ">
+                                 <span class="banner-header--animatewrap">
+                                 <span class="arrow-pinter animate-up animate-arrow  fadeinup04">
+                                 <img src="images/pointer.png" class="d-inline-block" alt="indicator"  >
+                                 </span>
+                                 </span>
+                                 <h1 class="banner-header--animatewrap  fadeinup08 pb-4">
+                                    <span class="animate-up animate-main-text capital-mobile">Your Villa,<br>
+                                    Your Way.</span>
+                                 </h1>
+                              </div>
+                           </div>
+                           <div class="search-content">
+                              <a class="btn-expand"></a>
+                              <div class="hide-on-collpase">
+                                 <h6 class="pb-md-2">Your Villa might already be listed.</h6>
+                                 <p class="p-secondary color-grey mb-2 mb-md-4 pb-2">Check now to claim!</p>
+                                 <form class="search-form" >
+                                    <div class="input-group aa-demo" id="aa-input-container">
+                                       <input type="search" class="form-control search-bar" id="searchInput" placeholder="Villa name" >
+                                       <div class="input-group-append">
+                                          <button class="input-group-text justify-content-center" tabindex="0">
+                                          <img src="images/search.png" width="15" height="15" alt="search">
+                                          </button>
+                                       </div>
+                                       <div class="autocomplete-items autocomplete-items-adjst1">
+                                          <div class="villas">
+                                             <div class="villawrap">
+                                                <div class="villapic"><img src="images/villasearchpic1.jpg"></div>
+                                                <div class="villadetails">
+                                                   <h6><strong>B</strong>aan Ora Chon</h6>
+                                                   <p>Sydney, Australia</p>
+                                                   <input type="hidden" value="Baan Ora Chon">
+                                                </div>
+                                             </div>
+                                             <div class="villawrap">
+                                                <div class="villapic">
+                                                   <img src="images/villasearchpic2.jpg">
+                                                </div>
+                                                <div class="villadetails">
+                                                   <h6><strong>B</strong>ali Harmony Villas</h6>
+                                                   <p>Bali, Indonesia</p>
+                                                   <input type="hidden" value="Bali Harmony Villas">
+                                                </div>
+                                             </div>
+                                             <div class="villawrap">
+                                                <div class="villapic"><img src="images/villasearchpic2.jpg"></div>
+                                                <div class="villadetails">
+                                                   <h6><strong>B</strong>ali Harmony Villas</h6>
+                                                   <p>Bali, Indonesia</p>
+                                                   <input type="hidden" value="Bali Harmony Villas">
+                                                </div>
+                                             </div>
+                                             <div class="villawrap">
+                                                <div class="villapic"><img src="images/villasearchpic2.jpg"></div>
+                                                <div class="villadetails">
+                                                   <h6><strong>B</strong>ali Harmony Villas</h6>
+                                                   <p>Bali, Indonesia</p>
+                                                   <input type="hidden" value="Bali Harmony Villas">
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </form>
+                              </div>
+                              <div class="villa-claim">
+                                 <div class="villawrap">
+                                    <div class="villapic">
+                                       <img src="images/villasearchpic1.jpg">
+                                    </div>
+                                    <div class="villadetails">
+                                       <h6 class="ff-bold">Hadjios Valley</h6>
+                                       <p class="ff-book">Sydney, Australia</p>
+                                       <input type="hidden" value="Baan Ora Chon">
+                                    </div>
+                                    <span class="ml-auto align-self-center">
+                                    <img src="images/icon_selected.svg">
+                                    </span>
+                                 </div>
+                                 <p class="p-secondary color-grey text-center px-3 hide-on-collpase">Great! We have already listed your Villa</p>
+                                 <p class="text-center mt-3"><a href="#" class="btn btn-yellow w-auto fs-12">Claim now</a></p>
+                                 <p class="px-3 text-center hide-on-collpase"><a href="javascript:void(0)" class=" fs-12 color-grey">I'll do it later</a></p>
+                              </div>
+                              <div class="villa-not-found ">
+                                 <div class="search-not-found  d-flex" >
+                                    <span class="mb-4 d-inline-block col-2"><img src="images/search-villa.svg"> </span>
+                                    <p class="p-secondary color-grey col-10 text-left">Sorry, Looks like your Villa is not <br> listed with us!</p>
+                                 </div>
+                                 <p class="text-center"><a href="#" class="btn btn-yellow w-auto fs-12">List now</a></p>
+                                 <p class="px-3 text-center hide-on-collpase"><a href="javascript:void(0)" class=" fs-12 color-grey">I'll do it later</a></p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- SignIn Modal -->
+                  <div class=" modal-primary modal-primary-popup" id="signInModal">
+                     <div class="">
+                        <div class="modal-content bg-grey">
+                           <div class="modal-header pt-5 login-header">
+                              <h4 class="modal-title ff-bold"><span></span>Sign In</h4>
+                              <button type="button" class="close" data-dismiss="popupmodal">&times;</button>
+                           </div>
+                           <div class="modal-body  px-5">
+                              <form action="#" class="formValidation" name="signinform">
+                                 <div class="form-group ">
+                                    <input type="email" class="form-control form-control-primary " id="email" name="email" placeholder="E-mail address" required data-bv-notempty-message="Email is required">
+                                 </div>
+                                 <div class="form-group  mb-2">
+                                    <input type="password" class="form-control form-control-primary" id="password" name="password" placeholder="Password" required data-bv-notempty-message="Password is required">
+                                 </div>
+                                 <p class="text-right"><a href="#" class="fs-13 color-inherit">Forgot password?</a></p>
+                                 <button type="submit" class="btn-yellow">SIGN IN</button>
+                              </form>
+                              <p class="or-style text-center mt-3 mb-3">OR</p>
+                              <p class="p-secondary color-grey text-center pt-1">Sign In using your personal accounts </p>
+                              <div class="row flex-nowrap justify-content-center">
+                                 <div class="px-2">
+                                    <span><img src="images/Facebook-big.png" class="img-fluid" alt="facebook"></span>
+                                 </div>
+                                 <div class=" px-2">
+                                    <span><img src="images/Google.png" class="img-fluid" alt="google"></span>  
+                                 </div>
+                              </div>
+                              <p class="p-secondary color-grey text-center mt-3">Dont have any account yet?
+                                 <a href="#" class="color-black ff-bold" data-toggle="popupmodal" data-target="#signUpModal">Sign Up</a>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- SignUP Modal -->
+                  <div class=" modal-primary modal-primary-popup" id="signUpModal">
+                     <div class="">
+                        <div class="modal-content bg-grey">
+                           <div class="modal-header pt-5 login-header">
+                              <h4 class="modal-title ff-bold"><span></span>Sign Up</h4>
+                              <button type="button" class="close" data-dismiss="popupmodal">&times;</button>
+                           </div>
+                           <div class="modal-body  px-5">
+                              <form action="#" class="formValidation" name="signupform">
+                                 <div class="form-group ">
+                                    <input type="text" class="form-control form-control-primary" id="fullname" placeholder="Full Name" name="fullname" required data-bv-notempty-message="Fullname is required">
+                                 </div>
+                                 <div class="form-group ">
+                                    <input type="email" class="form-control form-control-primary" id="signupemail" placeholder="E-mail address" name="signupemail" required data-bv-notempty-message="Email is required">
+                                 </div>
+                                 <div class="form-group">
+                                    <input type="password" class="form-control form-control-primary" id="signuppassword" placeholder="Password" name="password" required data-bv-notempty-message="Password is required">
+                                 </div>
+                                 <div class="form-group  mb-2">
+                                    <input type="password" class="form-control form-control-primary" id="signupcnfpassword" placeholder="Confirm Password" name="cnfpassword" required data-bv-notempty-message="Confirm password is required">
+                                 </div>
+                                 <button type="submit" class="btn-yellow text-uppercase">Sign Up</button>
+                              </form>
+                              <p class="or-style text-center mt-3 mb-3">OR</p>
+                              <p class="p-secondary color-grey text-center pt-1">Sign up using your social accounts</p>
+                              <div class="row flex-nowrap justify-content-center">
+                                 <div class="px-2">
+                                    <span><img src="images/Facebook-big.png" class="img-fluid" alt="facebook"></span>
+                                 </div>
+                                 <div class=" px-2">
+                                    <span><img src="images/Google.png" class="img-fulid" alt="google"></span>  
+                                 </div>
+                              </div>
+                              <p class="p-secondary color-grey text-center mt-3">Already have an account? 
+                                 <a href="#" class="color-black ff-bold" data-toggle="popupmodal" data-target="#signInModal">Sign In</a>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="search-mobile">
+                  <a class="search-back"><img src="images/back_button.svg" alt="back"> </a>
+                  <input type="text" id="search-mobile">
+                  <button type="submit">
+                  <img src="images/search.png" alt="search">
+                  </button>
+               </div>
+               <section class="overview pb-5">
+                  <div class="container ">
+                     
+                     <div class="row">
+                        <div class="col-md-6 pt-4 pb-4 pb-md-5 pl-5 pl-md-3  mt-5 maintitle scroll-reveal">
+                           <span class="support-text mb-15 maintitle--introtext ">
+                           <span class="animate-text" >It is Simple</span>
+                           </span>
+                           <h2 class="mt-3 pb-3 maintitle--text">
+                              <span class="animate-text">All you have to do is.</span>
+                           </h2>
+                           <p class="maintitle--subtext mb-3 mb-md-2 color-grey">
+                              <span class="animate-text">Listing with us can make <br class="d-block d-sm-none"> all the difference.</span>
+                           </p>
+                        </div>
+                     </div>
+                       <div class="scroll-mobile ml-4 ml-md-0">
+                     <div class="row no-gutters step-list">
+                        <div class="col-4 d-flex flex-column ">
+                           <div class="step-content bg-grey col-12">
+                              <span class="step-no">STEP 1</span> 
+                              <h6 class="fs-16 mb-2">Create account</h6>
+                              <p class="p-secondary color-grey lh17">Open doors to rental income by<br> signing up.</p>
+                           </div>
+                        </div>
+                        <div class="col-4 d-flex flex-column ">
+                           <div class="step-content bg-grey col-12">
+                              <span class="step-no">STEP 2</span> 
+                              <h6 class="fs-16  mb-2">Add villa photos &amp; details</h6>
+                              <p class="p-secondary color-grey lh17">Don't miss out on anything, show<br> travelers what your villa has to offer.</p>
+                           </div>
+                        </div>
+                        <div class="col-4 d-flex flex-column ">
+                           <div class="step-content bg-grey col-12">
+                              <span class="step-no">STEP 3</span> 
+                              <h6 class="fs-16 mb-2">Set prices and contact information</h6>
+                              <p class="p-secondary color-grey lh17">To attract more travelers, offer the<br> best price you can.</p>
+                           </div>
+                        </div>
+                        <div class="col-4 d-flex flex-column ">
+                           <div class="step-content bg-grey col-12">
+                              <span class="step-no">STEP 4</span> 
+                              <h6 class="fs-16 mb-2">Upload villa documents</h6>
+                              <p class="p-secondary color-grey lh17">To claim you're the owner of your one-of<br>-a-kind villa, provide mandatory documents.</p>
+                           </div>
+                        </div>
+                        <div class="col-4 d-flex flex-column ">
+                           <div class="step-content bg-grey col-12">
+                              <span class="step-no">STEP 5</span> 
+                              <h6 class="fs-16 mb-2">Submit for approval</h6>
+                              <p class="p-secondary color-grey lh17">Ready to rent? Submit your villa<br> profile and hear from us shortly.</p>
+                           </div>
+                        </div>
+                        <div class="col-4 d-flex flex-column ">
+                           <div class="step-content bg-grey col-12">
+                              <span class="step-no">STEP 6</span> 
+                              <h6 class="fs-16 mb-2">Go live and get direct leads</h6>
+                              <p class="p-secondary color-grey lh17">Embrace yourself to host travelers<br> from across the globe.</p>
+                           </div>
+                        </div>
+                     </div>
+                           </div>
+                  </div>
+               </section>
+               <section class="values-section">
+                  <div class="container">
+                     <div class="values-section-in position-relative fadeSec scroll-reveal">
+                        <div class="row ">
+                           <div class="col-md-4 pt-md-high bg-yellow mr-auto values-left pl-5 pl-md-3">
+                              <div class="maintitle  scroll-reveal ">
+                                 <span class="support-text  maintitle--introtext ">
+                                 <span class="animate-text">What we offer</span>
+                                 </span>
+                                 <h2 class="mb-2 mb-md-4 maintitle--subtext">
+                                    <span class="animate-text" >List with us.</span>
+                                 </h2>
+                                 <p class="pt-2 maintitle--subtext para-limit" style="color: #8e8945;">
+                                    <span class="animate-text" >We invest in providing you an invaluable service while you invest in creating invaluable experiences for villa renters.</span>
+                                 </p>
+                              </div>
+                              <div class="vertical-text vertical-text-sec d-none d-md-block" data-level="1.25" >
+                                 <div class="vertical-text-rotate">
+                                    <div class="animatefadeDown">
+                                       <span class="text-small text-uppercase">Ready, Set, List</span>
+                                       <span class="line"></span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-7 pt-med pb-med values-right maintitle  scroll-reveal pl-lg-5">
+                              <div class="row valuest-list ">
+                                 <div class="col-6 py-4 py-md-5 pl-5 pl-md-3">
+                                    <figure class="mb-0 maintitle--subtext">
+                                       <span class="animate-text" ><img src="images/lead-icon.svg" alt="communication"></span>
+                                    </figure>
+                                    <h6 class="mt-3 mb-2 mb-md-3 maintitle--subtext">
+                                       <span class="animate-text" >Direct leads</span>
+                                    </h6>
+                                 </div>
+                                 <div class="col-6 py-4 py-md-5 pl-5 pl-md-3">
+                                    <figure class="mb-0 maintitle--subtext">
+                                       <span class="animate-text" >
+                                       <img src="images/lifttime-free-icon.svg" alt="valuingrelation"></span>
+                                    </figure>
+                                    <h6 class="mt-3 mb-2 mb-md-3 maintitle--subtext">
+                                       <span class="animate-text" >Lifetime free listing</span>
+                                    </h6>
+                                 </div>
+                                 <div class="col-6 py-4 py-md-5 pl-5 pl-md-3">
+                                    <figure class="mb-0 maintitle--subtext">
+                                       <span class="animate-text" >
+                                       <img src="images/commission_policy-icon.svg" alt="passion"></span>
+                                    </figure>
+                                    <h6 class="mt-3 mb-2 mb-md-3 maintitle--subtext">
+                                       <span class="animate-text" >0% commission policy </span>
+                                    </h6>
+                                 </div>
+                                 <div class="col-6 py-4 py-md-5 pl-5 pl-md-3">
+                                    <figure class="mb-0 maintitle--subtext">
+                                       <span class="animate-text" >
+                                       <img src="images/editlist-icon.svg" alt="service"></span>
+                                    </figure>
+                                    <h6 class="mt-3 mb-2 mb-md-3 maintitle--subtext">
+                                       <span class="animate-text" >Ask us to create your listing</span>
+                                    </h6>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="vertical-text vertical-text-ter d-none d-md-block" data-level="1.25" >
+                           <div class="vertical-text-rotate">
+                              <div class="animatefadeDown">
+                                 <span class="line"></span>
+                                 <span class="text-small text-uppercase">Why list with us?</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="premium-section ">
+                  <div class="container">
+                     <div class="row">
+                        <div class="fadeSec scroll-reveal">
+                           <div class="rectangle-quat animatefadeLeft animatefadeLeftPic1 d-none d-md-block" >
+                           </div>
+                           <div class="maintitle  scroll-reveal premium-maintitle pl-5 pr-3 pl-md-3 ">
+                              <span class="support-text  maintitle--introtext ">
+                              <span class="animate-text" >Go Premium</span>
+                              </span>
+                              <h2 class="pb-2 pb-md-3  maintitle--subtext">
+                                 <span class="animate-text">For a more enhanced
+                                 experience.</span>
+                              </h2>
+                              <p class="pt-2 maintitle--subtext mb-4 mb-md-3" style="max-width: 288px;">
+                                 <span class="animate-text">List your villa and host people from around the world. Earn commission-free rental income only with us.</span>
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row plans-row flex-md-row-reverse">
+                       <div class="col-md-6 col-lg-4 px-5 px-md-3 py-3">
+                           <div class="plan-content">
+                              <h6 class="px-3 px-md-0">Premium Plan</h6>
+                              <div class="price d-flex align-items-center mb-4 mt-4 px-3 px-md-0">
+                                 <span class="price-shape price-shape bg-yellow"></span>
+                                 <strong class="pr-4">
+                                 <span>$</span>99 
+                                 </strong>
+                                 <p class="mt-3  mb-0 p-secondary color-grey">Per year</p>
+                              </div>
+                              <ul class="list-unstyled plan-details ">
+                                 <li >
+                                    <p class="mb-0 fs-14"><span class="mr-3"><img src="images/checkbox-black.svg" alt="check"></span>Lifetime free Villa listing</p>
+                                 </li>
+                                 <li >
+                                    <p class="mb-0 fs-14"><span class="mr-3"><img src="images/checkbox-black.svg" alt="check"></span>Robust analytics</p>
+                                 </li>
+                                 <li >
+                                    <p class="mb-0 fs-14"><span class="mr-3"><img src="images/checkbox-black.svg" alt="check"></span>Calendar syncing</p>
+                                 </li>
+                                 <li>
+                                    <p class="mb-0 fs-14"><span class="mr-3"><img src="images/checkbox-black.svg" alt="check"></span>Inbuilt messenger to chat with prospect renters</p>
+                                 </li>
+                              </ul>
+                              <a href="#" class="btn btn-normal btn-scale-animate border-radius-0 btn-black-white btn-block fs-12">GO PRO</a>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 px-5 px-md-3 py-3">
+                           <div class="plan-content">
+                              <h6>Free Plan</h6>
+                              <div class="price d-flex align-items-center mb-4 mt-4">
+                                 <span class="price-shape"></span>
+                                 <strong class="pr-4">
+                                 <span>$</span>0 
+                                 </strong>
+                                 <p class="mt-3 mb-0 p-secondary color-grey">Forever</p>
+                              </div>
+                              <ul class="list-unstyled plan-details ">
+                                 <li >
+                                    <p class="mb-0 fs-14"><span class="mr-3"><img src="images/checkbox-black.svg" alt="check"></span>Lifetime free Villa listing</p>
+                                 </li>
+                                 <li class=" disabled">
+                                    <p class="mb-0 fs-14"><span class="mr-3"><img src="images/not_allowed_icon.svg" alt="check"></span>Robust analytics</p>
+                                 </li>
+                                 <li class=" disabled">
+                                    <p class="mb-0 fs-14"><span class="mr-3"><img src="images/not_allowed_icon.svg" alt="check"></span>Calendar syncing</p>
+                                 </li>
+                                 <li class=" disabled">
+                                    <p class="mb-0 fs-14"><span class="mr-3"><img src="images/not_allowed_icon.svg" alt="check"></span>Inbuilt messenger to chat with prospect renters</p>
+                                 </li>
+                              </ul>
+                              <a href="#" class="btn btn-normal btn-scale-animate border-radius-0 btn-black-white btn-block fs-12">LIST MY VILLA</a>
+                           </div>
+                        </div>
+                        
+                     </div>
+                  </div>
+               </section>
+               <section class="listlearn-sec pt-large pb-large fadeSec scroll-reveal">
+                  <div class="container position-relative">
+                     <div class="row ">
+                        <div class="maintitle  scroll-reveal list-lt   px-0 position-relative pl-5 pr-3 pl-md-3 pr-md-3 pb-3 pb-md-0">
+                           <span class="support-text maintitle--introtext mb-10">
+                           <span class="animate-text" >For Villa Owners</span>
+                           </span>
+                           <h2 class="maintitle--text mb-3">
+                              <span class="animate-text" >Advertise with us.</span>
+                           </h2>
+                           <p class="maintitle--subtext mb-3 mb-md-4 color-grey para-limit" >
+                              <span class="animate-text mb-3">Get your unique accommodation noticed by millions of travellers. 
+                              Promote your villa on our website and marketing platforms. </span>
+                           </p>
+                           <p class="maintitle--button  pb-1 pb-md-5">
+                              <span class="btn-scale-animate-wrap" >
+                              <a href="#" class="btn btn-normal btn-scale-animate border-radius-0 btn-black-white">Learn more</a>
+                              </span>
+                           </p>
+                        </div>
+                        <div class=" px-0 px-md-3 list-rt mt-5 mt-md-0">
+                           <div class="d-md-inline-block position-relative fadeSec scroll-reveal mr-5 mr-md-0 ">
+                              <div class="oh  d-inline-block card--link scroll-reveal oh">
+                                 <div class="card--bg card--bg1" style="">
+                                    <div class="card--bg-inner card--bg-inner1" style="">
+                                       <div class="card--bg-superinner">
+                                          <figure class="imgcrop mb-0">
+                                             <img src="images/advertise-pic.jpg" class="img-hover-scale w-100" alt="list pic">
+                                          </figure>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="rectangle-quin animatefadeLeft animatefadeLeftPic1 " ></div>
+                              <div class="rectangle-oct animatefadeLeft animatefadeLeftPic1 " ></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="vertical-text vertical-text-quart d-none d-md-block" data-level="1.25" >
+                        <div class="vertical-text-rotate">
+                           <div class="animatefadeDown">
+                              <span class="line"></span>
+                              <span class="text-small text-uppercase">Advertise with us.</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="testimonials-sec ">
+                  <div class="container">
+                      <div class="row">
+                     <div class="maintitle  scroll-reveal   pt-2 px-0 position-relative pl-5 pr-3 pl-md-3 pr-md-0 ">
+                        <span class="support-text maintitle--introtext mb-10">
+                        <span class="animate-text" >What they're saying</span>
+                        </span>
+                        <h2 class="maintitle--text mb-3">
+                           <span class="animate-text" >Testimonials</span>
+                        </h2>
+                        <p class="maintitle--subtext  color-grey mb-0">
+                           <span class="animate-text ">from our trusted owners.</span>
+                        </p>
+                     </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-12 pl-5 pl-md-3">
+                     <div class="testimonials-carousel ">
+                        <div>
+                           <div class="d-flex flex-wrap mb-4 mt-5 flex-md-row-reverse testimonial-content" >
+                                <div class="col-md-7 bg-grey">
+                                 <div class="testimonial-des">
+                                    <span class="quote">“</span>
+                                    <p>Villas on Rent has provided such a perfect platform for promoting our villas. With Villas on Rent, we now receive booking requests from almost all parts of the world.</p>
+                                 </div>
+                                 <span class="square-black d-none d-md-block"></span>
+                              </div>
+                              <div class="bg-black col-md-5 d-flex flex-column justify-content-center py-4">
+                                 <div class="d-flex align-items-center align-self-center client-details">
+                                    <span> 
+                                    <img src="images/testmonial-pic.png" width="88" height="88" class="img-responsive rounded-circle" >
+                                    </span>
+                                    <div class="pl-2 px-md-3">
+                                       <h6 class="color-white">Samantha Jackson</h6>
+                                       <p class="p-secondary color-grey mb-0">Athoniki Villa, Mumbai, India</p>
+                                    </div>
+                                 </div>
+                              </div>
+                             
+                           </div>
+                        </div>
+                        <div>
+                           <div class="d-flex flex-wrap mb-4 mt-5 flex-md-row-reverse testimonial-content">
+                                <div class="col-md-7 bg-grey">
+                                 <div class="testimonial-des">
+                                    <span class="quote">“</span>
+                                    <p>Villas on Rent has provided such a perfect platform for promoting our villas. With Villas on Rent, we now receive booking requests from almost all parts of the world.</p>
+                                 </div>
+                                 <span class="square-black d-none d-md-block"></span>
+                              </div>
+                              <div class="bg-black col-md-5 d-flex flex-column justify-content-center py-4">
+                                 <div class="d-flex align-items-center align-self-center client-details">
+                                    <span> 
+                                    <img src="images/testmonial-pic.png" width="88" height="88" class="img-responsive rounded-circle" >
+                                    </span>
+                                    <div class="pl-2 px-md-3">
+                                       <h6 class="color-white">Samantha Jackson</h6>
+                                       <p class="p-secondary color-grey mb-0">Athoniki Villa, Mumbai, India</p>
+                                    </div>
+                                 </div>
+                              </div>
+                             
+                           </div>
+                        </div>
+                        <div>
+                          <div class="d-flex flex-wrap mb-4 mt-5 flex-md-row-reverse testimonial-content">
+                                <div class="col-md-7 bg-grey">
+                                 <div class="testimonial-des">
+                                    <span class="quote">“</span>
+                                    <p>Villas on Rent has provided such a perfect platform for promoting our villas. With Villas on Rent, we now receive booking requests from almost all parts of the world.</p>
+                                 </div>
+                                 <span class="square-black d-none d-md-block"></span>
+                              </div>
+                              <div class="bg-black col-md-5 d-flex flex-column justify-content-center py-4">
+                                 <div class="d-flex align-items-center align-self-center client-details">
+                                    <span> 
+                                    <img src="images/testmonial-pic.png" width="88" height="88" class="img-responsive rounded-circle" >
+                                    </span>
+                                    <div class="pl-2 px-md-3">
+                                       <h6 class="color-white">Samantha Jackson</h6>
+                                       <p class="p-secondary color-grey mb-0">Athoniki Villa, Mumbai, India</p>
+                                    </div>
+                                 </div>
+                              </div>
+                             
+                           </div>
+                        </div>
+                     </div>
+                          </div>
+                      </div>
+                     <div class="text-right d-none d-md-block pt-3">
+                        <div class="carousel-arrows testimonial-carousel-arrows">
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="faq-section  fadeSec scroll-reveal ">
+                  <div class="container position-relative">
+                     <div class="row">
+                        <div class="col-md-5 pl-5 pr-3 pl-md-3 pr-md-3  ">
+                             <div class="maintitle  scroll-reveal     position-relative ">
+                              <span class="support-text maintitle--introtext mb-10">
+                              <span class="animate-text">Inquire further</span>
+                              </span>
+                              <h2 class="maintitle--text mb-3">
+                                 <span class="animate-text" >Have any questions<br> for us?</span>
+                              </h2>
+                           </div>
+                          
+                           <div class="mail-drop pt-4 pt-md-5">
+                              <p class="p-secondary">Drop us a mail at -</p>
+                              <a href="mailto:marketing@villasonrent.com" class="color-inherit"> <span> <img src="images/mail-icon.svg" > </span>marketing@villasonrent.com</a>
+                           </div>
+                        </div>
+                        <div class="offset-md-1 col-md-6 col-xl-5 pt-4 px-5 px-md-3">
+                           <h6 class="p-secondary fs-16  mb-4 mt-2 text-left text-md-center">Leave your contact information below and we will<br class="d-none d-md-block"> get back to you at the earliest.</h6>
+                           <form class="faq-form formValidation" id="faq-form">
+                              <fieldset>
+                                 <div class="form-group mb-3 mb-md-4">
+                                    <input type="text" class="form-control form-control-primary" placeholder="Full name" name="faq-name" required  >
+                                 </div>
+                                 <div class="form-group mb-3 mb-md-4">
+                                    <input type="text" class="form-control form-control-primary" placeholder="Villa Name" name="faq-vname" required >
+                                 </div>
+                                 <div class="form-group mb-3 mb-md-4">
+                                    <input type="email" class="form-control form-control-primary" name="faq-email" placeholder="E-mail address" required >
+                                 </div>
+                                 <div class="form-group mb-3 mb-md-4">
+                                    <textarea  class="form-control form-control-primary" name="faq-concern" placeholder="Type your concern here…" required ></textarea>
+                                 </div>
+                                 <button class="btn btn-black border-radius-0">Submit</button>
+                              </fieldset>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="vertical-text vertical-text-quin d-none d-md-block" data-level="1.25" >
+                         <div class="vertical-text-rotate">
+                           <div class="animatefadeDown">
+                              <span class="line"></span>
+                              <span class="text-small text-uppercase">Drop us a mail</span>
+                           </div>
+                        </div>
+                      
+                     </div>
+                  </div>
+               </section>
+            </section>
+            <footer class="footer line-animation scroll-reveal position-relative oh">
+               <div class="footer--top">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-8 pt-3 pb-4 pb-md-0 position-relative border-bottom-mobile">
+                           <ul class="list-unstyled row mb-0 footer-nav-menu">
+                              <li class="col-md-4">
+                                 <h6 class="color-white mb-2">Villas On Rent</h6>
+                                 <ul class="list-unstyled footer-nav">
+                                    <li>
+                                       <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Disclaimer</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Terms of Service</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="col-md-4">
+                                 <h6 class="color-white mb-2">Explore</h6>
+                                 <ul class="list-unstyled footer-nav">
+                                    <li>
+                                       <a href="featureddestinations.html">Featured Destinations</a>
+                                    </li>
+                                    <li>
+                                       <a href="blogs.html">Blogs</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="col-md-4">
+                                 <h6 class="color-white mb-2">Owners</h6>
+                                 <ul class="list-unstyled footer-nav">
+                                    <li>
+                                       <a href="#">Owner Homepage</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">List My Villa</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Claim My Villa</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Premium Plan</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Advertise</a>
+                                    </li>
+                                    <li>
+                                       <a href="#">Contact Us</a>
+                                    </li>
+                                 </ul>
+                              </li>
+                           </ul>
+                           <span class="right-line"></span>
+                        </div>
+                        <div class="col-md-4 pt-3 pl-3 pl-md-5">
+                           <div class="pl-md-3">
+                              <h6 class="color-white mb-4">
+                                 Lifetime free listing. <br>
+                                 0% Commission and worldwide exposure!
+                              </h6>
+                              <a href="#" class="btn btn-normal border-radius-0 btn-scale-animate">Know more</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer--bottom">
+                  <div class="container">
+                     <div class="d-flex flex-wrap align-items-center flex-column flex-md-row justify-content-center">
+                        <div class="mr-md-5 py-3 order-0 order-md-0">
+                           <a href="#" >
+                           <img src="images/villa_logo.svg" class="d-none d-md-block" alt="villa logo"> 
+                           <img src="images/footer-logo-small.svg" class="d-block d-md-none" alt="footer-logo-small"> 
+                           </a>
+                        </div>
+                        <span class="copyright text-small px-2 py-3 order-2 order-md-2">© 2019 Bungalows on Rent <span class="d-md-none">LLP</span></span>
+                        <ul class="ml-md-auto list-unstyled social-icons d-inline-flex mb-0 border-right pr-4 py-1 my-3 order-1 order-md-2">
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-facebook" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-twitter" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-linkedin" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                              <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                              </a>
+                           </li>
+                        </ul>
+                        <div class="craft ml-4 py-3 order-3 order-md-3">
+                           <span class="text-small">Crafted  by</span>
+                           <span> <img src="images/combined_shape.svg" alt="combine" ></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+         </div>
+         <div class="sticky-block">
+            <span class="sticky-close">
+            <img src="images/close_popup_small.svg">
+            </span>
+             <div class="villa-tab-wrap">
+            <div class="villa-tab-pane active">
+               <div class="d-flex">
+                  <div class="px-3 mr-auto">
+                     <h6 class="fs-14">Your Villa might already be listed.</h6>
+                     <p class="p-secondary color-grey mb-0">Check now to claim!</p>
+                  </div>
+                  <div class="px-3">
+                     <button class=" justify-content-center villa-searchbutton" tabindex="0">
+                     <img src="images/search.png" width="15" height="15" alt="search">
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div class="villa-tab-pane">
+               <div class="d-flex">
+                  <div class="px-3 mr-auto">
+                     <h6 class="fs-14">Hadjios Valley</h6>
+                     <p class="p-secondary color-grey mb-0">Mazotos, Cyprus</p>
+                  </div>
+                  <div class="px-3">
+                     <a class=" btn btn-yellow fs-12 " tabindex="0">
+                     Claim now
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="villa-tab-pane">
+               <div class="d-flex">
+                  <div class="px-3">
+                     <span>
+                     <img src="images/search-villa.svg" >
+                     </span>
+                  </div>
+                  <div class="pr-md-3 mr-auto">
+                     <p class="p-secondary color-grey mb-0 fs-12">Sorry, Looks like your Villa is not listed with us!</p>
+                  </div>
+                  <div class="px-3">
+                     <a class=" btn btn-yellow fs-12 " tabindex="0">
+                     list now
+                     </a>
+                  </div>
+               </div>
+            </div>
+                 </div>
+         </div>
+          
+          <a href="javascript:void(0)" class="btn-show-sticky">
+                <img src="images/arrow-black.svg">
+          </a>
+          
+      </div>
+       
+                  <div class="modal modal-primary " >
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header pt-5 login-header">
+                              <h4 class="modal-title ff-bold"><span></span>Lorem Ipsum is simply dummy text.</h4>
+                              <button type="button" class="close" data-dismiss="popupmodal">&times;</button>
+                           </div>
+                           <div class="modal-body  px-5">
+                              <form action="#" class="formValidation" >
+                                 <div class="form-group ">
+                                   <label class="custom-control custom-radio radio-label">
+                                        <input type="radio" name="" class="custom-control-input" >
+                                       <span class="custom-control-label">I’ll do it myself</span>
+                                    </label>
+                                 </div>
+                                 <div class="form-group  mb-2">
+                                    <label class="custom-control custom-radio radio-label">
+                                        <input type="radio" class="custom-control-input">
+                                       <span class="custom-control-label">I want Villas on Rent to do it for me</span>
+                                    </label>
+                                 </div>
+                                 
+                                 <button type="submit" class="btn-yellow">confirm</button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+           
+                  <div class="modal modal-primary " >
+                     <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                           <div class="modal-header pt-5 login-header">
+                              
+                              <button type="button" class="close" data-dismiss="popupmodal">&times;</button>
+                           </div>
+                           <div class="modal-body  px-5 pb-5">
+                               <h4 class="modal-title ff-bold text-center"><span></span>Lorem Ipsum</h4>
+                               <p class="p-secondary color-grey text-center mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                               <a href="#" class="btn btn-yellow mb-5">Okay</a>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+       
+      <script src="js/main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
+      <script src="js/slick.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+      <script src="http://scrollmagic.io/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+      <script src="js/custom-script.js"></script>
+      <!--    <script src="js/autocomplete.js"></script>-->
+      <script>
+         $(document).ready(function(e){
+             
+             $('.search-bar').keyup(function(e){
+                 
+                 $('.search-content').addClass('expand');
+                 $(this).closest('.search-form').find('.autocomplete-items').show();
+             })
+             
+             $(document).on('click','.villawrap',function(e){
+                  $(this).closest('.search-form').find('.autocomplete-items').hide();
+                 $('.villa-claim').addClass('active');
+                 $(this).closest('.search-content').addClass('villaclaim-expand');
+                 
+             }) 
+             $(document).on('click','.btn-expand',function(e){
+                
+                 $(this).closest('.search-content').toggleClass('expand');
+                 $('.autocomplete-items').hide();
+                 
+                
+                 
+             })
+             
+             $('.sticky-close').click(function(e){
+                 $('.sticky-block').hide();
+             })
+             $('.btn-show-sticky').click(function(e){
+                 $(this).hide();
+                 $('.sticky-block').addClass('active');
+             })
+         })
+         
+      </script>
+   </body>
+</html>

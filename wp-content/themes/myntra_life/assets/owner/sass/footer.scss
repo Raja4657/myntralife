@@ -1,0 +1,119 @@
+.footer{
+    
+    &--top{
+        padding: 60px 0;
+        background-color: #111111;
+    }
+    &--bottom{
+        padding: 9px 0;
+        background-color: #000000;
+    }
+    
+    h6{
+        line-height: 1.833;
+        font-family: "Axiforma-Book"
+    }
+    .btn-normal{
+       border: 2px solid #fff686;
+       color: #fff686;
+        min-width: 170px;
+        
+    }
+    .btn-scale-animate{
+        -webkit-box-shadow: 0 0 0 0 #fff686 inset;box-shadow: 0 0 0 0 #6a6a6a inset;transition: all ease-in-out 0.5s;-webkit-transition: all ease-in-out 0.5s;
+        
+        &:hover{
+             -webkit-box-shadow: 0 0 0 30px #fff686 inset;box-shadow: 0 0 0 30px #fff686 inset;
+            color:#000000;
+            border-color: #000000;
+        }
+    //    &:before{background-color: #6a6a6a}
+//        &:after{background-color: #6a6a6a}
+    }
+}
+
+.footer-nav{
+    
+     @include mobile-landscape() {
+         display: none;
+    }
+    @media(min-width:768px){
+         display: block !important;
+    }
+    >li{
+        padding: 10px 0;
+        >a{
+            font-family: 'Axiforma-Book';
+            font-size: 14px; 
+            font-weight: 300;
+            color: #6a6a6a;
+            -webkit-transition: all ease-in-out 0.5s;
+            transition: all ease-in-out 0.5s;
+            position: relative;
+            left: 0;
+            &:hover{
+                text-decoration: none;
+                color: #fff686;
+                left: 7px;
+            }
+        }
+    }
+}
+
+.social-icons{
+    >li{
+        padding: 0 14px;
+        >a{
+            font-size: 20px;
+            color: #6a6a6a;
+        }
+    }
+}
+
+.copyright{color: #6a6a6a;
+    &.text-small{
+          font-family: 'Axiforma-Book';
+    }
+}
+.craft{color: #6a6a6a;
+    .text-small{
+        font-family: 'Axiforma-Book';
+        display: inline-block;
+        padding: 0 15px;
+    }
+}
+
+.footer-nav-menu{
+    h6{
+          @include mobile-landscape() {
+        border-bottom: 1px solid #2a2a2a;
+              position: relative;
+              &:after{
+                  content: '';
+                  width: 12px;height: 7px;
+                   background: url('../images/arrow-white-down.svg') no-repeat right center; 
+                  position: absolute;right: 0;top:13px;
+                  
+              }
+             
+              &.active{
+                  &:after{
+                      -webkit-transform: rotate(180deg);
+                      transform: rotate(180deg);
+                  }
+              }
+    }
+        @media(min-width:768px){
+            pointer-events: none;   
+        }
+        
+    }
+}
+
+.footer{
+    .border-right{
+        @include mobile-landscape() {
+            border-right: 0 none !important;
+        }
+    }
+}

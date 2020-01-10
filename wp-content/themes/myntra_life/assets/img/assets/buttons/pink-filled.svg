@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="42px" viewBox="0 0 127 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-5" transform="translate(-878.000000, -890.000000)" fill="#FF3F6C" stroke="#FF3F6C">
+            <g id="Group-39" transform="translate(145.000000, 773.000000)">
+                <g id="Group-40" transform="translate(734.000000, 2.000000)">
+                    <g id="Group-6" transform="translate(0.000000, 116.000000)">
+                        <path d="M1.28077641,0 L123.84699,0 C124.399275,7.74698528e-15 124.84699,0.44771525 124.84699,1 C124.84699,1.04731887 124.843632,1.09457807 124.83694,1.14142136 L120.117134,34.1800623 C120.049185,34.6557054 119.652569,35.0157923 119.172592,35.0376094 L10.8171561,39.9628565 C10.3417777,39.9844647 9.91702114,39.6680846 9.80160591,39.2064236 L0.310633906,1.24253563 C0.176685179,0.706740717 0.502445873,0.163806227 1.03824078,0.0298574999 C1.11756139,0.0100273489 1.1990146,-7.62136717e-16 1.28077641,0 Z" id="Rectangle"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

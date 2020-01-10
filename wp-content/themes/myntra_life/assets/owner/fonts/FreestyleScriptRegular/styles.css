@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'FreestyleScriptPlain';
+  src: url('FreestyleScriptPlain.eot?#iefix') format('embedded-opentype'),  url('FreestyleScriptPlain.otf')  format('opentype'),
+	     url('FreestyleScriptPlain.woff') format('woff'), url('FreestyleScriptPlain.ttf')  format('truetype'), url('FreestyleScriptPlain.svg#FreestyleScriptPlain') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

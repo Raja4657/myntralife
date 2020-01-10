@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Axiforma-Light';
+  src: url('Axiforma-Light.eot?#iefix') format('embedded-opentype'),  url('Axiforma-Light.otf')  format('opentype'),
+	     url('Axiforma-Light.woff') format('woff'), url('Axiforma-Light.ttf')  format('truetype'), url('Axiforma-Light.svg#Axiforma-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

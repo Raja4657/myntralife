@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Axiforma-BookItalic';
+  src: url('Axiforma-BookItalic.eot?#iefix') format('embedded-opentype'),  url('Axiforma-BookItalic.otf')  format('opentype'),
+	     url('Axiforma-BookItalic.woff') format('woff'), url('Axiforma-BookItalic.ttf')  format('truetype'), url('Axiforma-BookItalic.svg#Axiforma-BookItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

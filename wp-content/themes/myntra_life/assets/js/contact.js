@@ -1,0 +1,47 @@
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+'use strict';
+
+$(document).ready(function () {
+
+	$('.contact-content input, .contact-content textarea').focus(function () {
+		$(this).addClass('hasVal');
+	});
+
+	// check if the input has a value    
+	$('.contact-content input, .contact-content textarea').blur(function () {
+		if ($(this).val().length > 0) {
+			$(this).addClass('hasVal');
+		} else {
+			$(this).removeClass('hasVal');
+		}
+	});
+
+	$(".js-reach-out").click(function () {
+		$("#contact-form").toggleClass("active");
+		$(this).toggleClass("active");
+	});
+
+	$('#contact-form').validate({
+		ignore: "",
+		rules: {
+			contactname: {
+				required: true
+			},
+			contactmail: {
+				required: true,
+				email: true
+			},
+			contactsub: {
+				required: true
+			},
+			contactmsg: {
+				required: true
+			}
+		},
+		errorPlacement: function errorPlacement(error, element) {
+			error.prependTo(element.parent());
+		}
+	});
+});
+
+},{}]},{},[1])//# sourceMappingURL=contact.js.map

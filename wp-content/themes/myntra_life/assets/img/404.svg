@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="673px" height="254px" viewBox="0 0 673 254" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.71460772%" y1="50.0276204%" x2="99.2634596%" y2="51.5990237%" id="linearGradient-1">
+            <stop stop-color="#9B21AC" offset="0%"></stop>
+            <stop stop-color="#FF9E33" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="51.9597638%" x2="104.693688%" y2="42.6668913%" id="linearGradient-2">
+            <stop stop-color="#FF0784" offset="0%"></stop>
+            <stop stop-color="#FFAB4E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="1.88662132%" y1="50%" x2="97.4046297%" y2="58.8948827%" id="linearGradient-3">
+            <stop stop-color="#F82E94" offset="0%"></stop>
+            <stop stop-color="#FF9E33" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="99.2634596%" y2="56.6103468%" id="linearGradient-4">
+            <stop stop-color="#72613B" offset="0%"></stop>
+            <stop stop-color="#FF9E33" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="26.3328%" y1="50%" x2="73.318563%" y2="58.8948827%" id="linearGradient-5">
+            <stop stop-color="#FF0784" offset="0%"></stop>
+            <stop stop-color="#FFAB4E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Myntra_404" transform="translate(-397.000000, -223.000000)">
+            <g id="Group-4" transform="translate(386.000000, 194.000000)">
+                <g id="Group-2" transform="translate(99.000000, 28.000000)">
+                    <g id="Group" transform="translate(0.000000, 28.000000)" fill-rule="nonzero">
+                        <path d="M130.24,167 L130.24,140.6 L150.7,140.6 L150.7,100.34 L130.24,100.34 L130.24,76.8 L81.4,76.8 L81.4,100.34 L60.5,100.34 L118.58,13 L65.34,13 L0,107.6 L0,140.6 L79.86,140.6 L79.86,167 L130.24,167 Z M227.7,170.52 C241.34,170.52 253.403333,167.33 263.89,160.95 C274.376667,154.57 282.59,145.33 288.53,133.23 C294.47,121.13 297.44,106.72 297.44,90 C297.44,73.28 294.47,58.87 288.53,46.77 C282.59,34.67 274.376667,25.43 263.89,19.05 C253.403333,12.67 241.34,9.48 227.7,9.48 C214.06,9.48 201.996667,12.67 191.51,19.05 C181.023333,25.43 172.81,34.67 166.87,46.77 C160.93,58.87 157.96,73.28 157.96,90 C157.96,106.72 160.93,121.13 166.87,133.23 C172.81,145.33 181.023333,154.57 191.51,160.95 C201.996667,167.33 214.06,170.52 227.7,170.52 Z M227.7,128.94 C215.966667,128.94 210.1,115.96 210.1,90 C210.1,64.04 215.966667,51.06 227.7,51.06 C239.433333,51.06 245.3,64.04 245.3,90 C245.3,115.96 239.433333,128.94 227.7,128.94 Z M439.12,167 L439.12,140.6 L459.58,140.6 L459.58,100.34 L439.12,100.34 L439.12,76.8 L390.28,76.8 L390.28,100.34 L369.38,100.34 L427.46,13 L374.22,13 L308.88,107.6 L308.88,140.6 L388.74,140.6 L388.74,167 L439.12,167 Z" id="404" stroke="#191C28"></path>
+                        <path d="M139.24,158 L139.24,131.6 L159.7,131.6 L159.7,91.34 L139.24,91.34 L139.24,67.8 L90.4,67.8 L90.4,91.34 L69.5,91.34 L127.58,4 L74.34,4 L9,98.6 L9,131.6 L88.86,131.6 L88.86,158 L139.24,158 Z M236.7,161.52 C250.34,161.52 262.403333,158.33 272.89,151.95 C283.376667,145.57 291.59,136.33 297.53,124.23 C303.47,112.13 306.44,97.72 306.44,81 C306.44,64.28 303.47,49.87 297.53,37.77 C291.59,25.67 283.376667,16.43 272.89,10.05 C262.403333,3.67 250.34,0.48 236.7,0.48 C223.06,0.48 210.996667,3.67 200.51,10.05 C190.023333,16.43 181.81,25.67 175.87,37.77 C169.93,49.87 166.96,64.28 166.96,81 C166.96,97.72 169.93,112.13 175.87,124.23 C181.81,136.33 190.023333,145.57 200.51,151.95 C210.996667,158.33 223.06,161.52 236.7,161.52 Z M236.7,119.94 C224.966667,119.94 219.1,106.96 219.1,81 C219.1,55.04 224.966667,42.06 236.7,42.06 C248.433333,42.06 254.3,55.04 254.3,81 C254.3,106.96 248.433333,119.94 236.7,119.94 Z M448.12,158 L448.12,131.6 L468.58,131.6 L468.58,91.34 L448.12,91.34 L448.12,67.8 L399.28,67.8 L399.28,91.34 L378.38,91.34 L436.46,4 L383.22,4 L317.88,98.6 L317.88,131.6 L397.74,131.6 L397.74,158 L448.12,158 Z" id="404" fill="#191C28"></path>
+                    </g>
+                    <g id="Group-17" opacity="0.3" transform="translate(406.000000, 45.000000) rotate(-5.000000) translate(-406.000000, -45.000000) translate(365.000000, 4.000000)" fill="#D8D8D8">
+                        <g id="Group-16" transform="translate(0.675762, 0.811200)">
+                            <g id="Group-15">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 8.444444)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 16.888889)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 25.333333)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 33.777778)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                        </g>
+                        <g id="Group-16" transform="translate(42.864563, 0.486962)">
+                            <g id="Group-15">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 8.444444)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 16.888889)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 25.333333)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 33.777778)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                        </g>
+                        <g id="Group-16" transform="translate(1.000000, 43.000000)">
+                            <g id="Group-15">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 8.444444)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 16.888889)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 25.333333)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 33.777778)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                        </g>
+                        <g id="Group-16" transform="translate(43.188800, 42.675762)">
+                            <g id="Group-15">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 8.444444)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 16.888889)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 25.333333)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                            <g id="Group-15" transform="translate(0.000000, 33.777778)">
+                                <circle id="Oval" cx="2.11111111" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="10.5555556" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="19" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="27.4444444" cy="2.11111111" r="2.11111111"></circle>
+                                <circle id="Oval" cx="35.8888889" cy="2.11111111" r="2.11111111"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path d="M22,111.518195 C86.5253283,83.0653731 134.213162,67.5593082 165.063501,65 M230.966539,67.5760529 C278.008303,75.3301324 323.500797,95.8826 367.444022,129.233456 C506.613047,234.856247 365.532965,273.755143 336.602977,228.04378 M352.314338,159.963571 C370.538857,143.458124 399.251861,144.249513 435.526565,161.662762 M551.631109,249.090367 C600.433593,292.996054 625.437193,317.086978 626.641908,321.36314" id="Shape" stroke="url(#linearGradient-1)" stroke-dasharray="7,10" fill-rule="nonzero" transform="translate(324.320954, 193.181570) rotate(-13.000000) translate(-324.320954, -193.181570) "></path>
+                <g id="Group-5" transform="translate(627.939685, 234.070159) rotate(82.000000) translate(-627.939685, -234.070159) translate(570.939685, 185.570159)">
+                    <polygon id="Fill-1" fill="url(#linearGradient-2)" points="113.19 0 0 46.7336079 33.4574114 53.13"></polygon>
+                    <polygon id="Fill-2" fill="url(#linearGradient-3)" points="33.11 53.1057219 33.1827978 80.85 46.1548532 61.5915295 112.42 0"></polygon>
+                    <polygon id="Fill-2-Copy" fill="#000000" opacity="0.212890625" points="33.11 53.1057219 33.1827978 80.85 46.1548532 61.5915295 112.42 0"></polygon>
+                    <polygon id="Fill-3" fill="url(#linearGradient-4)" points="33.11 80.85 55.44 69.5972756 46.3104354 61.6"></polygon>
+                    <polygon id="Fill-3-Copy" fill="#000000" opacity="0.64546131" points="33.11 80.85 55.44 69.5972756 46.3104354 61.6"></polygon>
+                    <polygon id="Fill-4" fill="url(#linearGradient-5)" points="46.2 61.4183317 75.4805096 96.25 112.42 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

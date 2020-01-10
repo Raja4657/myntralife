@@ -1,0 +1,477 @@
+@font-face {
+  font-family: 'FreestyleScriptRegular';
+  src: url('../fonts/FreestyleScriptRegular/FreestyleScriptPlain.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/FreestyleScriptRegular/FreestyleScriptPlain.otf')  format('opentype'),
+	     url('../fonts/FreestyleScriptRegular/FreestyleScriptPlain.woff') format('woff'), 
+      url('../fonts/FreestyleScriptRegular/FreestyleScriptPlain.ttf')  format('truetype'), 
+      url('../fonts/FreestyleScriptRegular/FreestyleScriptPlain.svg#FreestyleScriptPlain') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+//myfonts
+ 
+@font-face {font-family: 'Axiforma-Bold';
+    src: url('../fonts/webfonts/38DB70_0_0.eot');
+    src: url('../fonts/webfonts/38DB70_0_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_0_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_0_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-BoldItalic';src: url('../fonts/webfonts/38DB70_1_0.eot');src: url('../fonts/webfonts/38DB70_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/38DB70_1_0.woff2') format('woff2'),url('../fonts/webfonts/38DB70_1_0.woff') format('woff'),url('../fonts/webfonts/38DB70_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-Book';src: url('../fonts/webfonts/38DB70_2_0.eot');src: url('../fonts/webfonts/38DB70_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/38DB70_2_0.woff2') format('woff2'),url('../fonts/webfonts/38DB70_2_0.woff') format('woff'),url('../fonts/webfonts/38DB70_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-Black';
+    src: url('../fonts/webfonts/38DB70_3_0.eot');
+    src: url('../fonts/webfonts/38DB70_3_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_3_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_3_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-BlackItalic';src: url('../fonts/webfonts/38DB70_4_0.eot');src: url('../fonts/webfonts/38DB70_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/38DB70_4_0.woff2') format('woff2'),url('../fonts/webfonts/38DB70_4_0.woff') format('woff'),url('../fonts/webfonts/38DB70_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-BookItalic';
+    src: url('../fonts/webfonts/38DB70_5_0.eot');
+    src: url('../fonts/webfonts/38DB70_5_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_5_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_5_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-Italic';
+    src: url('../fonts/webfonts/38DB70_6_0.eot');
+    src: url('../fonts/webfonts/38DB70_6_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_6_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_6_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-Heavy';
+    src: url('../fonts/webfonts/38DB70_7_0.eot');
+    src: url('../fonts/webfonts/38DB70_7_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_7_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_7_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-ExtraBold';
+    src: url('../fonts/webfonts/38DB70_8_0.eot');
+    src: url('../fonts/webfonts/38DB70_8_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_8_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_8_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-HeavyItalic';
+    src: url('../fonts/webfonts/38DB70_9_0.eot');
+    src: url('../fonts/webfonts/38DB70_9_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_9_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_9_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-ExtraBoldItalic';src: url('../fonts/webfonts/38DB70_A_0.eot');
+    src: url('../fonts/webfonts/38DB70_A_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_A_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_A_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-Light';
+    src: url('../fonts/webfonts/38DB70_B_0.eot');
+    src: url('../fonts/webfonts/38DB70_B_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_B_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_B_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-LightItalic';
+    src: url('../fonts/webfonts/38DB70_C_0.eot');
+    src: url('../fonts/webfonts/38DB70_C_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_C_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_C_0.woff') format('woff'),url('../fonts/webfonts/38DB70_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-Medium';
+    src: url('../fonts/webfonts/38DB70_D_0.eot');
+    src: url('../fonts/webfonts/38DB70_D_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_D_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_D_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-MediumItalic';
+    src: url('../fonts/webfonts/38DB70_E_0.eot');
+    src: url('../fonts/webfonts/38DB70_E_0.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webfonts/38DB70_E_0.woff2') format('woff2'),
+        url('../fonts/webfonts/38DB70_E_0.woff') format('woff'),
+        url('../fonts/webfonts/38DB70_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-Regular';
+    src: url('../fonts/webfonts/38DB70_F_0.eot');
+    src: url('../fonts/webfonts/38DB70_F_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/38DB70_F_0.woff2') format('woff2'),url('../fonts/webfonts/38DB70_F_0.woff') format('woff'),url('../fonts/webfonts/38DB70_F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-SemiBold';
+    src: url('../fonts/webfonts/38DB70_10_0.eot');src: url('../fonts/webfonts/38DB70_10_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/38DB70_10_0.woff2') format('woff2'),url('../fonts/webfonts/38DB70_10_0.woff') format('woff'),url('../fonts/webfonts/38DB70_10_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-SemiBoldItalic';src: url('../fonts/webfonts/38DB70_11_0.eot');src: url('../fonts/webfonts/38DB70_11_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/38DB70_11_0.woff2') format('woff2'),url('../fonts/webfonts/38DB70_11_0.woff') format('woff'),url('../fonts/webfonts/38DB70_11_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-Thin';src: url('../fonts/webfonts/38DB70_12_0.eot');src: url('../fonts/webfonts/38DB70_12_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/38DB70_12_0.woff2') format('woff2'),url('../fonts/webfonts/38DB70_12_0.woff') format('woff'),url('../fonts/webfonts/38DB70_12_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Axiforma-ThinItalic';src: url('../fonts/webfonts/38DB70_13_0.eot');src: url('../fonts/webfonts/38DB70_13_0.eot?#iefix') format('embedded-opentype'),url('../fonts/webfonts/38DB70_13_0.woff2') format('woff2'),url('../fonts/webfonts/38DB70_13_0.woff') format('woff'),url('../fonts/webfonts/38DB70_13_0.ttf') format('truetype');}
+
+body{font-size: 16px;line-height: 1.1;font-weight: normal;color: $color-black; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+h1,h2,h3,h4,h5,h6{padding: 0;margin: 0; }
+h1{font-size: $fs-primary;line-height: 1.1; font-family: $ff-primary;}
+h2{font-family:$ff-primary;font-size: $fs-secondary;color: $color-black;font-weight: normal;line-height: 1.1;
+ @include mobile-landscape() {font-size: 28px;}
+}
+h3{font-size: 26px;}
+h4{font-family: $ff-quaternary; font-size:$fs-tertiary;line-height: 1.36;color: $color-black;font-weight: normal;
+ @include mobile-landscape() {
+     font-size: 24px;
+    }
+}
+.h4-sec{
+   @include mobile-landscape() {
+     font-size: 20px;
+    } 
+}
+h5{font-family: $ff-secondary;font-size:$fs-quaternary;line-height: 1;color: $color-black;}
+h6{font-family: $ff-secondary;font-size: $fs-quinary;line-height: 1.55;color: $color-black;}
+
+p{ font-family:$ff-quaternary;font-size: $fs-normal;line-height: 1.5;font-weight: 300;color: $color-black;
+ @include mobile-landscape() {font-size: 14px;}
+}
+a:hover{text-decoration: none;}
+.text-bold{font-family: $ff-secondary;font-weight: normal;}
+.p-secondary{font-size: 14px !important;}
+
+.fs-12{font-size: 12px !important;}
+.fs-13{font-size: 13px !important;}
+.fs-14{font-size: 14px !important;}
+.fs-16{font-size: 16px !important;}
+.fs-18{font-size: 18px !important;}
+.lh17{line-height: 1.7;}
+.lh2{line-height: 2;}
+
+.font-abi{font-family: $ff-quinary !important;}
+.ff-extrabold{font-family: $ff-primary !important;}
+.ff-book{font-family: $ff-quaternary !important;}
+.ff-book{font-family: $ff-quaternary !important;}
+.ff-sb{font-family: $ff-tertiary !important;}
+.ff-bold{font-family: $ff-secondary !important;}
+.ff-regular{font-family: $ff-normal !important;}
+
+.opacity-8{opacity: 0.8;}
+.color-white{color: $color-white;}
+.color-black{color: $color-black;}
+.color-grey{color: $color-grey;}
+.color-green-light{color: $color-green-light;}
+.color-inherit{color: inherit !important;}
+
+.bg-black{background-color:$bg-black !important;}
+.bg-grey{background-color:$bg-grey;}
+.bg-grey-thick{background-color:$bg-grey-thick !important;}
+.bg-grey-light{background-color: $bg-grey-light;}
+.bg-yellow{background-color: $bg-yellow;}
+.bg-green{background-color: $bg-green !important;}
+.bg-green-light{background-color: $bg-green-light !important}
+.bg-white{background-color: $bg-white !important;}
+
+
+.btn-text{padding: 10px 10px; font-family: $ff-secondary;color:$color-black;font-size: 14px;font-weight: normal;min-width: 110px;min-height: 43px;backface-visibility: hidden;
+    &:hover{color:$color-black;}
+    &:focus{color:$color-black;}
+    &:active{color:$color-black;}
+}
+.btn-text .line{content: "";width: 25px;height: 2px;background: $bg-black;display: inline-block;vertical-align: middle;margin: 0 0 0 13px;}
+
+.btn-text-normal{
+    
+}
+
+.btn-text-secondary{
+    display: inline-block;
+    padding-right: 25px;
+    color: #6a9c78;
+font-family: $ff-normal;
+font-size: 14px;
+    background: url('../images/down-arrow-green.svg') no-repeat center right;
+}
+.btn-text-tertiary{
+    display: inline-block;
+    padding-right: 25px;
+     color: #6a9c78;
+font-family: $ff-senary;
+font-size: 14px;
+    &:focus, &:active,&:hover{ color: #6a9c78;}
+}
+.btn-text-quat{
+    display: inline-block;
+    color: #6a9c78;
+font-family: $ff-normal;
+font-size: 14px;
+    &:hover{
+       color: #6a9c78;
+        font-family: $ff-secondary;
+    }
+   
+}
+.btn-normal{padding: 12px 30px; border: 2px solid #111111;color: $color-black;font-size: 14px;font-weight: normal;font-family: "Axiforma-Bold"; text-transform: uppercase;
+    &:hover{color: $color-black;}
+    &:focus{color: $color-black;}
+    &:active{color: $color-black;}
+}
+.btn-green{
+    padding: 12px 30px; border: 2px solid #6a9c78;color: rgba(106,156,120,0.9);font-size: 12px;font-weight: normal;font-family: "Axiforma-Bold"; text-transform: uppercase;display: inline-block;text-decoration: none;
+    &:hover{color: rgba(106,156,120,0.9);}
+    &:focus{color: rgba(106,156,120,0.9);}
+}
+.btn-grey{padding: 15px 10px;  border-radius: 7px;background-color: #6a6a6a;color: $color-white;font-size: 14px;text-transform: uppercase;font-family: $ff-secondary;
+    &:hover{color: $color-white;}
+    &:focus{color: $color-white;}
+    &:active{color: $color-white;}
+}
+.btn-black{padding: 15px 10px;  border-radius: 7px;background-color: $bg-black;color: $color-white;font-size: 14px;text-transform: uppercase;font-family: $ff-secondary;
+ &:hover{color: $color-white;}
+    &:focus{color: $color-white;}
+    &:active{color: $color-white;}
+}
+.btn-white{padding: 15px 10px;  border-radius: 7px;color: $color-white;font-size: 12px;text-transform: uppercase;font-family: $ff-secondary;border:1px solid #fff;
+ &:hover{color: $color-white;}
+    &:focus{color: $color-white;}
+    &:active{color: $color-white;}
+}
+
+.border-bottom-none{border-bottom: none !important}
+.border-bottom.adjst1{border-bottom-color: #efefef !important}
+.border-radius-0{border-radius: 0px;}
+.border-right{border-right: 1px solid #2a2a2a !important;}
+.border-trasparent{border-color: transparent !important;}
+
+.text-small{font-family: $ff-secondary; font-size: $fs-small;font-weight: normal;letter-spacing: 0.6px;display: inline-block;}
+.support-text{font-family: $ff-septenary;color: $color-black;font-size: 30px;font-weight: 400;letter-spacing: 1.4px;
+ @include mobile-landscape() {font-size: 28px;}
+}
+
+.pt-large{padding-top: 130px;
+ @include mobile-landscape() {padding-top: 50px;}
+}
+.pb-large{padding-bottom: 100px;
+@include mobile-landscape() {padding-bottom: 30px;}
+}
+.pt-sec-large{padding-top: 105px;
+    @include mobile-landscape() {padding-top: 30px;}
+}
+.pb-sec-large{padding-bottom: 105px;
+  @include mobile-landscape() {padding-top: 30px;}
+}
+.pl-prime{padding-left: 35px;}
+.pr-prime{padding-right: 35px;
+@include mobile-landscape() {padding-right: 0px;}
+}
+.mb-10{/*margin-bottom: -10px;*/}
+.mb-15{/*margin-bottom: -15px;*/}
+header .container{max-width: 1330px;}
+.container{max-width: 1150px}
+.container-small{max-width: 950px;}
+.container-small-sec{max-width: 860px;margin: 0 auto;}
+
+
+.container-big{max-width: 1440px;padding-left: 160px;
+    @media(max-width:1400px){
+        padding-left: 120px;
+    }
+     @media(max-width:1300px){
+        padding-left: 15px;
+    }
+}
+
+.px-10{padding-left: 10px !important;padding-right: 10px !important;}
+.px-20{padding-left: 20px !important;padding-right: 20px !important;}
+.px-md-20{
+    @media(min-width:768px){
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+.mn-20{margin-left: -20px !important;margin-right: -20px !important;}
+.mnr-20{margin-right: -20px !important;}
+.mn-10{margin-left: -10px !important;margin-right: -10px !important;}
+
+.badge-cust{color: #000000;letter-spacing: 1.09px;padding: 5px 7px;background-color: #75fff4;border-radius: 3px; font-family: 'Axiforma-BoldItalic';font-size: 12px;font-weight: normal;}
+.badge-cirle{width: 21px;
+height: 21px;
+background-color: #6a9c78;
+color: #ffffff;
+font-family: $ff-secondary;
+font-size: 12px;
+    border-radius: 50%;
+}
+.oh{overflow: hidden;}
+.seperator{color: #2a2a2a;}
+
+.windows{
+    .mb5{margin-bottom: -5px;}
+    .mb-10{margin-bottom: -10px;}
+.mb-15{margin-bottom: -15px;}
+}
+
+
+.z-index-1{z-index:1}
+.z-index-2{z-index:2}
+.z-index-3{z-index:3}
+
+
+/*breadcrumbs*/
+.bradcrumbs-custom{
+    .breadcrumb{
+        padding-left: 0;
+        background-color: transparent;
+        >.breadcrumb-item{
+            font-size: 12px;
+            color: $color-grey;
+            font-family: $ff-secondary;
+            a{color: inherit;
+               font-family: $ff-quaternary 
+            }
+            + .breadcrumb-item{
+                &:before{
+                    content: '';
+                    width: 5px;height: 14px;background: url('../images/breadcrumb-arrow.svg') no-repeat center center;padding: 0;margin-right: 5px;vertical-align: top;
+                }
+            }
+        }
+    }
+}
+
+/* toggle switch */
+
+.switch {position: relative;display: inline-block;width:42px;height:20px;vertical-align: middle;margin: 0;}
+.switch input {display:none;}
+.switchslider {position: absolute;  cursor: pointer;  top: 0;  left: 0;  right: 0;  bottom: 0; border:1px solid #111111;-webkit-transition: .4s;  transition: .4s;}
+.switchslider:before {position: absolute;  content: "";  height: 14px;  width: 16px;  left: 2px;  bottom: 2px;  background-color: #111111;  -webkit-transition: .4s;  transition: .4s;border-radius: 2px;}
+.switch input:checked + .switchslider {background-color: #6a9c78;}
+.switch input:focus + .switchslider {box-shadow: 0 0 1px #6a9c78;}
+.switch input:checked + .switchslider:before { -webkit-transform: translateX(20px);  -ms-transform: translateX(20px);  transform: translateX(20px);}
+
+
+.btn-dd{
+    padding: 5px 36px 5px 13px;
+    color: #111111;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Axiforma-Book";
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    &:hover{
+        color: #111111; 
+    }
+    &[aria-expanded="true"]{
+        &:after{
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+    }
+    
+    &:after{
+        content: '';
+    width: 13px;
+    height: 8px;
+    display: inline-block;
+    background-image: url(../images/arrow-black-down.svg);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    position: absolute;
+    right: 14px;
+    top: 13px;
+    }
+}
+
+.form-control-primary{
+    border-radius: 1px;
+border: 1px solid #dbdbdb;
+background-color: #ffffff;
+    height: 48px;
+    outline: 0 none !important;
+    box-shadow: none !important;
+    color:$color-black;
+}
+.form-control-primary::-webkit-input-placeholder {
+  color: #8c8c8c;
+font-family: 'Axiforma-Book';
+font-size: 14px;
+font-weight: 300;
+}
+.form-control-primary::-moz-placeholder { /* Firefox 19+ */
+  color: #8c8c8c;
+font-family: 'Axiforma-Book';
+font-size: 14px;
+font-weight: 300;
+}
+.form-control-primary:-ms-input-placeholder { /* IE 10+ */
+  color: #8c8c8c;
+font-family: 'Axiforma-Book';
+font-size: 14px;
+font-weight: 300;
+}
+.form-control-primary:-moz-placeholder { /* Firefox 18- */
+ color: #8c8c8c;
+font-family: 'Axiforma-Book';
+font-size: 14px;
+font-weight: 300;
+}
+.form-control-primary:focus{
+    border-color: #6a9c78;
+}
+
+.formValidation {
+    .has-error{
+    .form-control-primary{
+        border-color: #d06868;
+        color: #d06868;
+        &::-webkit-input-placeholder {
+             color:#d06868;
+        }
+        &::-moz-placeholder {
+             color:#d06868;
+        }
+        &:-ms-input-placeholder {
+             color:#d06868;
+        }
+        :-moz-placeholder  {
+             color:#d06868;
+        }
+    }
+        }
+    
+    .help-block{
+        color:#d06868;
+        font-size: 12px;
+        line-height: 1.1;
+        font-style: italic;
+    }
+}
+
+.v-scroll{
+    .mCSB_outside+.mCSB_scrollTools{
+        right: 0;
+    }
+    .mCS-light-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+        border-radius: 4px;
+background-color: #dbdbdb;
+    }
+}

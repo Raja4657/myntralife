@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="57px" viewBox="0 0 54 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-333.000000, -188.000000)">
+            <g id="Group-4" transform="translate(333.000000, 188.000000)">
+                <circle id="Oval" fill="#B3DDD5" cx="13.915" cy="42.915" r="13.915"></circle>
+                <circle id="Oval" fill="#FFECF0" cx="37.335" cy="16.335" r="16.335"></circle>
+                <g id="Group" transform="translate(7.000000, 11.000000)" stroke="#000000" stroke-width="2">
+                    <circle id="Oval" cx="13.5087719" cy="39.754386" r="4.24561404"></circle>
+                    <circle id="Oval" cx="30.4912281" cy="39.754386" r="4.24561404"></circle>
+                    <path d="M29.3333333,12.7368421 L17.754386,12.7368421 L29.3333333,12.7368421 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M0,0 L2.83968939,0 C3.8419327,0 4.84417601,0.385964912 5.62369859,1.10275689 L6.12482025,1.54385965 C7.01570319,2.37092732 7.57250503,3.52882206 7.62818522,4.68671679 L9.24291056,25.5839599 C9.29859074,26.245614 9.68835203,28.0651629 10.0224331,28.6716792 C10.6905953,29.9398496 11.8598792,30.877193 13.3632442,30.877193 L33.9649123,30.877193" id="Path" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M6.1754386,1.54385965 L38.0531179,1.54385965 C38.0531179,1.54385965 41.4086631,1.54385965 40.8494056,5.46140351 L37.8853407,20.5159649 C37.3260831,22.1389474 36.9905286,22.4747368 36.4871968,22.9784211 C36.0397908,23.3701754 34.7534985,23.9298246 32.4605426,23.9298246 L8.97172626,23.9298246" id="Path" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
